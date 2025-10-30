@@ -1,21 +1,5 @@
 # Secure-Medical-Records-Management-Using-Blockchain
 
-A blockchain based medical record management system where the patient has complete access over who their data can be accessed by. Doctors need to request the patient for their access and the access can be revoked by the patient. The doctor's access to the patient's record results in a log being generated for the patient where they can see the date along with time when the doctor accessed the patient's records.
-
-To run the docker file go to the root folder of the project in the terminal and then type the following command:
-```docker-compose up --build```
-
-**During the 1st time it shall take some time, since it shall download the images required for running it.**
-
-To delete/remove the containers just use:
-```docker-compose down -v```
-
-It deletes all the containers along with volumes created.
-
-Here is the updated document with \`\` removed:
-
-**SecureChain: Blockchain Medical Record System**
-
 SecureChain is a web application designed to manage electronic health records (EHR) with a focus on security, patient control, and auditability. It uses a Flask backend, a PostgreSQL database for storing patient data, and a custom-built, in-memory blockchain to create an immutable audit log of all critical actions.
 
 This system provides distinct roles (Admin, Doctor, Patient) each with specific capabilities, ensuring that patients have full control over who can access their sensitive medical information.
@@ -136,3 +120,15 @@ This project is a proof-of-concept and has two key limitations:
 ├── requirements.txt \# Python dependencies
 ├── cleanup\_db.py \# Helper script for DB cleanup
 └── reset\_password.py \# Helper script to reset all passwords
+
+
+To run the docker file go to the root folder of the project in the terminal and then type the following command:
+```docker-compose up --build```
+
+**During the 1st time it shall take some time, since it shall download the images required for running it.**
+
+To delete/remove the containers just use:
+```docker-compose down -v```
+
+It deletes all the containers along with volumes created.
+
