@@ -107,7 +107,7 @@ This project is a proof-of-concept and has two key limitations:
 
 **Project File Structure**
 
-.
+```.
 ├── app/
 │   ├── \_\_init\_\_.py \# Flask app factory, initializes app and extensions
 │   ├── blockchain.py \# Class for the in-memory blockchain ledger
@@ -120,6 +120,7 @@ This project is a proof-of-concept and has two key limitations:
 ├── requirements.txt \# Python dependencies
 ├── cleanup\_db.py \# Helper script for DB cleanup
 └── reset\_password.py \# Helper script to reset all passwords
+```
 
 
 To run the docker file go to the root folder of the project in the terminal and then type the following command:
